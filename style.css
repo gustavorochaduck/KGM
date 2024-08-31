@@ -1,0 +1,12 @@
+body{
+    background: rgb(188,152,120);
+    background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%); 
+}
+.navigation_bar{
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+}
