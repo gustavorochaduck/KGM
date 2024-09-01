@@ -1,12 +1,66 @@
+@font-face {
+    font-family: KronaOne-Regular;
+    src: url(fonts/KronaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Krub-Medium;
+    src: url(fonts/Krub-Medium.ttf);
+}
 body{
     background: rgb(188,152,120);
-    background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%); 
+    background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%);
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%; /* Garante que o site não ultrapasse a largura da viewport */
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
 }
 .navigation_bar{
+    display: flexbox;
     /* From https://css.glass */
     background: rgba(0, 0, 0, 0.29);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18.9px);
     -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+}
+#menu_icon{
+    margin-left: auto;
+}
+#home_icon{
+    margin-left: auto;
+}
+#acount_icon{
+    margin-right: auto;
+}
+.first_content{
+    
+}
+#kgm_title{
+    display: flexbox;
+    font-size: 160px;
+    font-family: KronaOne-Regular;
+    text-align: center;
+    color: whitesmoke;
+}
+.text-one{
+    width: 100%; /* O container ocupa 100% da largura disponível */
+    max-width: 600px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza o container na página */
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+#bem_vindos{
+    font-size: 11px;
+    font-family: Krub-Medium;
+    text-align: left;
+    color: whitesmoke;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: black;
+    overflow-wrap: break-word; /* Quebra palavras longas */
+    text-align: justify; /* Justifica o texto (opcional) */
 }
