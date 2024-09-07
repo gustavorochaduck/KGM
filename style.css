@@ -19,7 +19,7 @@ body{
     display: flexbox;
     /* From https://css.glass */
     background: rgba(0, 0, 0, 0.29);
-    border-radius: 16px;
+    /*border-radius: 16px;*/
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18.9px);
     -webkit-backdrop-filter: blur(18.9px);
@@ -34,15 +34,13 @@ body{
 #acount_icon{
     margin-right: auto;
 }
-.first_content{
-    
-}
 #kgm_title{
     display: flexbox;
     font-size: 160px;
     font-family: KronaOne-Regular;
     text-align: center;
     color: whitesmoke;
+    margin-bottom: 2px;
 }
 .text-one{
     width: 100%; /* O container ocupa 100% da largura disponível */
@@ -52,15 +50,47 @@ body{
     box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
 }
 #bem_vindos{
-    font-size: 11px;
+    font-size: 23px;
     font-family: Krub-Medium;
-    text-align: left;
+    text-align: center;
     color: whitesmoke;
-    max-width: 500px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    background-color: black;
-    overflow-wrap: break-word; /* Quebra palavras longas */
-    text-align: justify; /* Justifica o texto (opcional) */
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* From https://css.glass */
+    /* From here on down this code will be used to create the glass effect behind the texts */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+    }
+.second_content{
+    background-image: url(photos/packing-product.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 150px;
+    width: 1500px;
+    height: 700px;
+}
+#text_two{
+    font-size: 23px;
+    font-family: Krub-Medium;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* From https://css.glass */
+    /* From here on down this code will be used to create the glass effect behind the texts */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+    align-items: center;
+    display: flex;
+    display: grid;
 }
