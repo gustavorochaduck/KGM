@@ -7,6 +7,7 @@
     src: url(fonts/Krub-Medium.ttf);
 }
 body{
+    background-repeat: no-repeat;
     background: rgb(188,152,120);
     background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%);
     display: block;
@@ -33,6 +34,7 @@ body{
 }
 #acount_icon{
     margin-right: auto;
+    align-items: right;
 }
 #kgm_title{
     display: flexbox;
@@ -54,7 +56,7 @@ body{
     font-family: Krub-Medium;
     text-align: center;
     color: whitesmoke;
-    margin-top: 2px;
+    margin-top: 4px;
     margin-left: 300px;
     margin-right: 300px;
     /* From https://css.glass */
