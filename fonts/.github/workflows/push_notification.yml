@@ -1,0 +1,19 @@
+name: Discord Notification
+
+# Especifica os eventos que vão disparar a ação
+on:
+  push:
+    branches:
+      - main  # Monitora a branch 'main' para atualizações
+
+jobs:
+  notify-discord:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Ação que envia uma mensagem para o Discord quando um push ocorre
+      - name: Send Discord Notification
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d "{\"content\": \"🚀 Novo push(Atualização) no repositório: ${{ github.repository }}.\\nÚltimo commit: ${{ github.event.head_commit.message }}.\"}" \
+          https://discord.com/api/webhooks/1284158992515334154/SsbQOJrR8LdjajTs3AhY0H24cDNNnpCyIu-IYS7NPMoTwK8RlSlXiE1fbMz-cJyFTnDS
