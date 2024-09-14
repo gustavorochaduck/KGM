@@ -96,3 +96,72 @@ body{
     display: flex;
     display: grid;
 }
+.third_content{
+    display: flex;
+}
+#text_three{
+    justify-content: center; 
+    font-size: 23px;
+    font-family: Krub-Medium;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* From https://css.glass */
+    /* From here on down this code will be used to create the glass effect behind the texts */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+    align-items: center;
+    display: flex;
+}
+.fourth_content{
+    display: block;
+}
+#text_four{
+    justify-content: center; 
+    font-size: 23px;
+    font-family: Krub-Medium;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* From https://css.glass */
+    /* From here on down this code will be used to create the glass effect behind the texts */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+    align-items: center;
+    display: flex;
+}
+.fifth_content{
+    display: block;
+}
+#text_five{
+    justify-content: center; 
+    font-size: 23px;
+    font-family: Krub-Medium;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* From https://css.glass */
+    /* From here on down this code will be used to create the glass effect behind the texts */
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.9px);
+    -webkit-backdrop-filter: blur(18.9px);
+    align-content: start;
+    align-items: center;
+    display: flex;
+}
