@@ -17,30 +17,15 @@ body{
     overflow-x: hidden; /* Impede a barra de rolagem horizontal */
 }
 .navigation_bar{
-    /*display: flexbox;
-    /* From https://css.glass 
+    margin
+    display: flexbox;
+    /* From https://css.glass */
     background: rgba(0, 0, 0, 0.29);
-    /*border-radius: 16px;
+    /*border-radius: 16px;*/
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18.9px);
     -webkit-backdrop-filter: blur(18.9px);
-    align-content: start;*/
-    
-    position: fixed; /* Fixa a barra de navegação no topo */
-    top: 0; /* Define a barra no topo da página */
-    left: 0;
-    width: 100%; /* Faz com que a barra ocupe 100% da largura */
-    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
-    
-    display: flex; /* Corrige o 'flexbox' para 'flex' */
-    background: rgba(0, 0, 0, 0.29);
-    /* border-radius: 16px; */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(18.9px);
-    -webkit-backdrop-filter: blur(18.9px);
-    align-items: center; /* Ajusta o alinhamento vertical para itens flex */
-    padding: 10px; /* Adiciona um pouco de padding */
-
+    align-content: start;
 }
 #menu_icon{
     margin-left: auto;
@@ -85,13 +70,12 @@ body{
     align-content: start;
     }
 .second_content{
-    max-width: 100%;
-    height: auto;
     background-image: url(photos/packing-product.jpg);
     background-repeat: none;
     background-size: cover;
     margin-top: 150px;
-    
+    width: 1500px;
+    height: 700px;
 }
 #text_two{
     font-size: 23px;
@@ -181,14 +165,4 @@ body{
     align-content: start;
     align-items: center;
     display: flex;
-}
-#shop_button{
-    position: fixed;
-    bottom: 20px;
-    right: 15px;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
