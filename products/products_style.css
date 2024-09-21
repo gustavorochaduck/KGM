@@ -1,0 +1,19 @@
+body{
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+.security{
+    border-radius: 16px;
+    border-color: black;
+}
+button {
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dark_mode{
+    background: black;
+    color: white;
+    
+}
