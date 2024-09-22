@@ -1,3 +1,4 @@
+/* arquivo css para celulares ou para telas que a altura é maior que a largura */
 @font-face {
     font-family: KronaOne-Regular;
     src: url(fonts/KronaOne-Regular.ttf);
@@ -8,7 +9,8 @@
 }
 body{
     background-repeat: no-repeat;
-    background: rgb(188,152,120);
+    /*background: rgb(188,152,120);*/
+    background-color: black
     background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%);
     display: block;
     margin: 0;
@@ -192,3 +194,4 @@ body{
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
