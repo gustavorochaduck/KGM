@@ -10,7 +10,7 @@
 body{
     background-repeat: no-repeat;
     /*background: rgb(188,152,120);*/
-    background-color: black
+    background-color: black;
     background: linear-gradient(90deg, rgba(188,152,120,1) 0%, rgba(17,100,102,1) 63%);
     display: block;
     margin: 0;

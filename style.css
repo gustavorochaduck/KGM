@@ -250,7 +250,7 @@ p{
     }
 
     .navigation_bar, #menu_icon, #home_icon, #acount_icon {
-        height: 4vw
+        height: 4vw;
         flex-direction: column; /* Alinha itens em coluna em telas pequenas */
         align-items: left; /* Centraliza itens */
     }
