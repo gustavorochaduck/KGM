@@ -16,4 +16,4 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -d "{\"content\": \"🚀 Novo push no repositório: ${{ github.repository }}.\\nÚltimo commit: ${{ github.event.head_commit.message }}.\\nData e hora do commit: ${{ github.event.head_commit.timestamp }}.\"}" \
-          https://discordapp.com/api/webhooks/1284158992515334154/SsbQOJrR8LdjajTs3AhY0H24cDNNnpCyIu-IYS7NPMoTwK8RlSlXiE1fbMz-cJyFTnDS
+          YOU_CANT_HAVE_MY_API
