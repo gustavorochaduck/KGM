@@ -13,15 +13,67 @@ body{
     background-attachment: fixed;   
 }
 .navegation{
+    color: red;
     display: flex;
     justify-content: center;
     margin-left: 7vw;
     list-style: none;
     gap: 5vw;
-    font-family: pixeloid-sans, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    
+}
+#shopping_cart{
+    width: 10vw;
+    background-color:unset;
+    border: 0;
+}
+#logo{
+    width: 50vw;
+    height: 40vw;
+}
+.down{
+    padding-left: 17vw;
+    display: inline-flex;
+    justify-content:start;
+    
 }
 .Introduction_text{
   font-family: "Pixelify Sans", sans-serif;
-  font-size: 4vw;
+  font-size: 3vw;
   color: whitesmoke;
+  width: 40vw;
+  margin-right: 7vw;
+}
+.search{
+    display: inline-flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 12vw;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+.search_elements{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-radius: 0;
+}
+#product_search{
+    background-color: unset;
+    font-size: 1vw;
+    border: none;
+    font-family: "Pixelify Sans", sans-serif;
+    height: fit-content;
+}
+#product_search_submit{
+    background-color: unset;
+    border: 0;
+    margin-top: 2%;
+    fill: black;
 }
