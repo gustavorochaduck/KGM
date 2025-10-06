@@ -53,13 +53,13 @@ body{
 }
 .search{
     outline-style: none;
-
+    justify-content: center;
     display: inline-flex;
     width: fit-content;
     height: fit-content;
     background-color: aqua;
     height: fit-content;
-    min-width: 27%;
+    min-width: 30%;
     padding: 2%;
     border-radius: 12vw;
     margin-top: 3vw;
