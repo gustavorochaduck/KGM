@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px red solid; */
 }
 body{
     height: 100vh;
@@ -13,14 +14,20 @@ body{
     background-attachment: fixed;   
 }
 .navegation{
-    color: red;
+    /* -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     margin-left: 7vw;
     list-style: none;
     gap: 5vw;
     font-family: "Pixelify Sans", sans-serif;
-    
+}
+.navegation a:link, a:visited, a:active{
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
 }
 #shopping_cart{
     width: 10vw;
@@ -45,26 +52,36 @@ body{
   margin-right: 7vw;
 }
 .search{
+    outline-style: none;
+
     display: inline-flex;
     width: fit-content;
     height: fit-content;
     background-color: aqua;
     height: fit-content;
-    width: fit-content;
+    min-width: 27%;
     padding: 2%;
     border-radius: 12vw;
     margin-top: 3vw;
     margin-left: 5vw;
 }
 .search_elements{
+    display: flexbox;
     border-style: solid;
     border-top: none;
     border-left: none;
     border-right: none;
     border-color: black;
     border-radius: 0;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
 }
 #product_search{
+    outline-style: none;
+    justify-content: center;
     background-color: unset;
     font-size: 1vw;
     border: none;
@@ -72,6 +89,9 @@ body{
     height: fit-content;
 }
 #product_search_submit{
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
     background-color: unset;
     border: 0;
     margin-top: 2%;
